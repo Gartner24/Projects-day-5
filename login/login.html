@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <div>
+                <h1>Welcome</h1>
+                <p>Selecciona el metodo de autenticacion</p>
+                <form action="submit">
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="remember">Remember me</label>
+                            <input type="checkbox" name="remember" id="remember">
+                        </div>
+                        <div>
+                            <a href="#">I forgot my password</a>
+                        </div>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                
+                <div>
+                    <p>Choose another method to authenticate</p>
+                    <div>
+                        <a href="#">Google</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                    </div>
+            </div>
+            <div class="leftContainer"></div>
+        </div>
+    </main>
+</body>
+</html>

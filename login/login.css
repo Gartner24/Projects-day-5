@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .card h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .card p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .card form {
+    margin-top: 20px;
+  }
+  
+  .card label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  .card input[type="text"],
+  .card input[type="password"],
+  .card input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .card input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #45a049;
+  }
+  
+  .card a {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  .card .methods {
+    margin-top: 20px;
+  }
+  
+  .card .methods a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .card .methods a:hover {
+    background-color: #f5f5f5;
+  }
+  
